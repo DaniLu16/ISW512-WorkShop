@@ -1,0 +1,55 @@
+ 
+ h1 {
+    text-align: center;
+    font-size: 90px;
+    color:#921c82;
+    
+   
+}
+h2 {
+    text-align: center;
+    font-size: 80px;
+    color: #d31c1c;
+  
+}
+
+h3 {
+    text-align: center;
+    font-size: 50px;
+    color: #000000;
+  
+   
+}
+p {
+    text-align: center;
+    font-size: 30px;
+    color: #000000;
+    font-family: Calibri, sans-serif;
+    
+}
+
+.centered-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+}
+
+
+
+.button {
+    
+    padding: 10px 20px; /*Estilizado cuadrado*/
+    font-size: 20px;    /*Tamaño de la letra*/
+    text-decoration: none;
+    border-radius: 15px; /*Estilizar el borde redondo*/
+    margin: 30px auto;
+    display: block; /*centra*/
+    width: 300px;
+    text-align: center;
+    font-family: 'Calibri', sans-serif;
+    color: #fff;
+    background-color: #12b360;
+    box-shadow: 0 9px #999;/*sombra*/
+}
+
