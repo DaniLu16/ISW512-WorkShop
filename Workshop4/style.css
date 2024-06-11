@@ -2,54 +2,64 @@
  h1 {
     text-align: center;
     font-size: 90px;
-    color:#921c82;
+    color:#221c92;
     
    
 }
 h2 {
     text-align: center;
-    font-size: 80px;
-    color: #d31c1c;
+    font-size: 85px;
+    color:#da0c77;
   
 }
-
 h3 {
     text-align: center;
-    font-size: 50px;
-    color: #000000;
-  
-   
+    font-size: 100px;
+    color: #d31f1f;
 }
+
+h4{
+  
+    text-align: center;
+    font-size: 60px;
+    color: #080808;
+} 
+
 p {
     text-align: center;
     font-size: 30px;
     color: #000000;
-    font-family: Calibri, sans-serif;
+    font-family: Calibri;
     
 }
 
 .centered-logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 500px;
+    display: block; /*centra la imagen*/
+    margin: auto; /*margenes equitativos*/
+    height: 700px;
 }
 
 
 
 .button {
     
-    padding: 10px 20px; /*Estilizado cuadrado*/
-    font-size: 20px;    /*Tamaño de la letra*/
-    text-decoration: none;
+    padding: 10px 20px; /*Estilizado cuadrado */
     border-radius: 15px; /*Estilizar el borde redondo*/
-    margin: 30px auto;
-    display: block; /*centra*/
     width: 300px;
-    text-align: center;
-    font-family: 'Calibri', sans-serif;
-    color: #fff;
     background-color: #12b360;
     box-shadow: 0 9px #999;/*sombra*/
+
+    font-size: 30px;    /*Tamaño de la letra*/
+    text-decoration: none; /* Elimina línea de link */
+    font-family: Calibri;
+    text-align: center;
+    color: #fff;
+   
+    display: block;  /* Concierte el enlace en bloque */
+    margin: auto; /* Centra el botón */
+    
+   
+  
+   
 }
 
