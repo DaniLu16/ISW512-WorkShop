@@ -36,7 +36,7 @@ p {
 .centered-logo {
     display: block; /*centra la imagen*/
     margin: auto; /*margenes equitativos*/
-    height: 700px;
+    height: 100px;
 }
 
 
