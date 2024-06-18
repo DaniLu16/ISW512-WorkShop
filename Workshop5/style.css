@@ -1,123 +1,106 @@
-body{
-font-family: Arial, Helvetica;
-background-color: rgb(0, 0, 0);
-
-}
-p{
-    font-family: Arial, Helvetica;
-    font-size: 55px;
-    color: rgb(255, 255, 255);
-    
-
-}
-.menu{
-padding: 0;
-background-color: rgb(0, 0, 0);
-text-align: center;
-width: auto;
 
 
-
-}
-
-.menu li a{
-text-decoration:none;
-color: rgb(120, 116, 116);
-padding: 20px;
-display: block;
-font-size: 35px;
-
-
-}
-
-.menu li{
-display: inline-block;
-
+body {
+    font-family: Arial, Helvetica; 
+    background-color: rgb(0, 0, 0); /
 }
 
 
-
-.centered-logo {
-    display: block; /*centra la imagen*/
-    margin: auto; /*margenes equitativos*/
-    height:700px;
-  
+h1 {
+    color: rgb(148, 143, 122); 
+    font-size: 100px; 
+    text-align: center; 
 }
+
+
+h2 {
+    color: rgb(247, 247, 246); 
+    font-size: 80px; 
+    text-align: left; 
+}
+
+
+h3 {
+    color: rgb(11, 11, 11);
+    font-size: 35px; 
+    text-align: center; /
+}
+
+
+p {
+    font-family: Arial, Helvetica; 
+    font-size: 55px; 
+    color: rgb(255, 255, 255); 
+}
+
+/* Estilos para el menú */
+.menu {
+    padding: 0; /* Elimina el relleno predeterminado */
+    background-color: rgb(0, 0, 0); 
+    text-align: center; /* Centra el texto horizontalmente */
+    width: auto; 
+}
+
+.menu li a {
+    text-decoration: none; 
+    color: rgb(120, 116, 116); 
+    padding: 20px; /* Agrega relleno alrededor del texto */
+    display: block; /* Convierte los enlaces en bloques para ocupar todo el ancho */
+    font-size: 35px; 
+}
+
+.menu li {
+    display: inline-block; /* Hace que los elementos de la lista aparezcan en línea */
+}
+
 .menu li a:hover {
     color: #e5f0e4; /* Cambia el color del texto al pasar el mouse */
 }
 
 
-
-
-
-h1{
- color: rgb(148, 143, 122);
-font-size: 100px;
-text-align: center;
-
+.centered-logo {
+    display: block; 
+    margin: auto; 
+    height: 700px; 
 }
 
-
-h2{
-    color: rgb(247, 247, 246);
-    font-size: 80px;
-    text-align: left;
-    
-
-
-}
-
-h3{
-    color: rgb(11, 11, 11);
-    font-size: 35px;
-    text-align: center;
-    
-
-
-}
+/* Estilos para la sección del informacion iPhone */
 .iphone-section {
-    display: flex;
-    align-items: center;
-}
-
-.iphone-text {
-    flex-grow: 1;
-    text-align: left;
+    display: flex; /* Crea un contenedor flexible */
+    align-items: center; 
 }
 
 .iphone-image {
-    margin-left: 20px;
-    margin-right: 20px;
-    align-self: flex-end;
+    margin-left: 20px; /* Establece un margen a la izquierda */
+    margin-right: 20px; /* Establece un margen a la derecha */
+  
 }
 
+/* Estilos para el contenedor de productos */
 .container-products {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    gap: 5rem; /* ancho */
-    padding: 5rem;
+    display: grid; /* Crea un contenedor de cuadrícula */
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); /* Establece el tamaño de las columnas */
+    gap: 5rem; /* Define el espacio entre las cajas */
+    padding: 5rem; /* Agrega relleno alrededor del contenedor */
 }
 
+/* Estilos para las tarjetas de productos */
 .card-product {
-    background-color: #ffffff;
-    padding: 5rem 5rem 10rem; /* Aumentado el padding inferior */
-    border-radius: 5rem;
-    cursor: pointer;
-    text-align: center;
-    transition: transform 0.3s;
-    min-height: 40rem; /* Altura mínima aumentada */
+    background-color: #ffffff; /* Establece el color de fondo de las tarjetas */
+    padding: 5rem 5rem 10rem; /* Agrega relleno a las tarjetas */
+    border-radius: 5rem; /* Establece el radio de borde */
+    cursor: pointer; /* Cambia el cursor al pasar sobre la tarjeta */
+    text-align: center; /* Centra el contenido de la tarjeta */
+    transition: transform 0.3s; /* Agrega una transición suave */
+    min-height: 40rem; /* Establece la altura mínima de las tarjetas */
 }
 
 .card-product img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 2rem;
-    margin-bottom: 1.5rem;
+    max-width: 100%; /* Establece el ancho máximo de la imagen */
+    height: auto; /* Permite que la altura de la imagen se ajuste automáticamente */
+ 
 }
 
-
-
 .card-product:hover {
-    transform: scale(1.05);
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño de la tarjeta al pasar el mouse */
 }
