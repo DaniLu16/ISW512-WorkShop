@@ -1,0 +1,209 @@
+/* Estilo del header */
+header {
+    background-color: #ffff66; 
+    text-align: center; 
+    padding: 20px 0; /* Relleno arriba y abajo */
+    border-radius: 15px; 
+    margin: 20px auto; /* Centrado y separación del borde del contenedor */
+    max-width: calc(100% - 40px); /* Ajusta el ancho máximo restando márgenes */
+    box-sizing: border-box; /* Incluye padding y borde en el ancho total */
+}
+
+header h1 {
+    margin: 0; 
+    font-size: 2.5em; 
+}
+
+header h2 {
+    margin: 10px 0 0;
+    font-size: 1.5em; 
+}
+
+/* Estilo del nav */
+nav {
+    background-color: #ff9900; 
+    padding: 10px 0; 
+    border-radius: 15px; /* Bordes redondeados */
+    margin: 20px auto; /* Centrado y separación del borde del contenedor */
+    max-width: calc(100% - 40px); /* Ajusta el ancho máximo restando márgenes */
+    box-sizing: border-box; /* Incluye padding y borde en el ancho total */
+}
+
+/* Estilo de dropdown menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #ff9900;
+    color: white; 
+    padding: 10px 20px; /* Relleno */
+    font-size: 1em; /* Tamaño de fuente */
+    border: none; /* Sin borde */
+    border-radius: 15px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de mano */
+}
+
+.dropdown-content {
+    display: none; /* Oculto por defecto */
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px; /* Ancho mínimo */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Sombra */
+    z-index: 1; /* Aparece por encima de otros elementos */
+}
+
+.dropdown-content a {
+    color: black; /* Texto negro */
+    padding: 12px 16px; 
+    text-decoration: none; 
+    display: block;
+    border-radius: 15px;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd; /* Fondo gris al pasar el ratón */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; /* Muestra el contenido del dropdown al pasar el ratón */
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #e68a00; /* Color de fondo naranja más oscuro al pasar el ratón */
+}
+
+/* Estilo del main */
+main {
+    padding: 20px; /* Relleno */
+    margin: 20px auto; /* Centrado y separación del borde del contenedor */
+    max-width: calc(100% - 40px); /* Ajusta el ancho máximo restando márgenes */
+    box-sizing: border-box; /* Incluye padding y borde en el ancho total */
+}
+
+.content {
+    display: flex;
+    justify-content: space-between; /* Espacio entre elementos */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan */
+}
+
+/* Estilo de las cajas de contenido */
+.box {
+    background-color: #0000ff; 
+    color: #fff; 
+    margin: 10px; 
+    width: calc(33.333% - 20px); /* Ajusta el ancho para que se ajuste al contenedor */
+    box-sizing: border-box; /* Incluye padding y borde en el ancho total */
+    border-radius: 15px;
+}
+
+/* Estilo del footer */
+footer {
+    background-color: #ffcccc; 
+    text-align: center; 
+    padding: 10px 0; /* Relleno arriba y abajo */
+    font-size: 0.9em; /* Tamaño de fuente pequeño */
+    border-radius: 15px; 
+    margin: 20px auto; /* Centrado y separación del borde del contenedor */
+    max-width: calc(100% - 40px); /* Ajusta el ancho máximo restando márgenes */
+    box-sizing: border-box; /* Incluye padding y borde en el ancho total */
+}
+
+@media only screen and (max-width: 936px) {
+    header h1 {
+        font-size: 2em; /* Tamaño de fuente más pequeño */
+    }
+
+    header h2 {
+        font-size: 1.2em; /* Tamaño de fuente más pequeño */
+    }
+
+    nav {
+        text-align: center; /* Texto centrado */
+        border-radius: 15px; /* Bordes redondeados */
+    }
+
+    .dropdown {
+        display: block; /* Bloque completo */
+        width: 100%; /* Ancho completo */
+    }
+
+    .dropbtn {
+        width: 100%; /* Ancho completo */
+    }
+
+    .dropdown-content {
+        position: static; /* Posicionamiento estático */
+        width: 100%; /* Ancho completo */
+    }
+
+    .dropdown-content a {
+        padding: 15px; /* Relleno */
+        text-align: center; /* Texto centrado */
+    }
+
+    .content {
+        flex-direction: column; /* Columnas */
+        align-items: center; /* Centrados */
+    }
+
+    .box {
+        width: 90%; /* Ancho de las cajas */
+        margin: 10px 0; /* Margen */
+    }
+
+    footer {
+        padding: 20px 0; /* Relleno */
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    header h1 {
+        font-size: 2em; /* Tamaño de fuente más pequeño */
+    }
+
+    header h2 {
+        font-size: 1.2em; /* Tamaño de fuente más pequeño */
+    }
+
+    nav {
+        text-align: center; /* Texto centrado */
+        border-radius: 15px; /* Bordes redondeados */
+    }
+
+    .dropdown {
+        display: block; /* Bloque completo */
+        width: 100%; /* Ancho completo */
+    }
+
+    .dropbtn {
+        width: 100%; /* Ancho completo */
+    }
+
+    .dropdown-content {
+        position: static; /* Posicionamiento estático */
+        width: 100%; /* Ancho completo */
+    }
+
+    .dropdown-content a {
+        padding: 15px; /* Relleno */
+        text-align: center; /* Texto centrado */
+    }
+
+    .content {
+        flex-direction: column; /* Columnas */
+        align-items: center; /* Centrados */
+    }
+
+    .box {
+        width: 90%; /* Ancho de las cajas */
+        margin: 10px 0; /* Margen */
+    }
+
+    footer {
+        padding: 20px 0; /* Relleno */
+    }
+}

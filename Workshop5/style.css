@@ -79,7 +79,7 @@ p {
 /* Estilos para el contenedor de productos */
 .container-products {
     display: grid; /* Crea un contenedor de cuadrícula */
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); /* Establece el tamaño de las columnas */
+    grid-template-columns: repeat(auto-fit, minmax(20rem,  1fr)); /* Establece el tamaño de las columnas */
     gap: 5rem; /* Define el espacio entre las cajas */
     padding: 5rem; /* Agrega relleno alrededor del contenedor */
 }
